@@ -2,3 +2,94 @@
     margin: 0;
     padding: 0;
 }
+
+.cabecalho{
+    border: 1px black solid;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    padding: 0 16px;
+    justify-content: space-between;
+
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: space-between;
+}
+
+button{
+    width: 100px;
+    height: 25px;
+    border-radius: 8px;
+}
+
+button:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+button:active{
+    background-color:dimgrey;
+    color: blue;
+}
+
+.container{
+    display: flex;
+    height: 80vh;
+}
+
+.menu-esquerda{
+    border: solid 2px black;
+    width: 200px;
+}
+
+.menu-direita{
+    border: solid 2px black;
+    order: 1;
+    width: 200px;
+    /* align-self:center;alinha os items */
+}
+
+.text-cotainer{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 8px;
+    padding: 20px;
+}
+
+.fixacao{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    margin: 0 auto;
+    padding: 10px; 
+    width: 100%;   
+    height: 500px;
+    border: 2px black solid;
+    flex-wrap:wrap;
+    justify-content: center;
+
+    
+}
+
+.img-texto{
+    text-align: center;
+    margin: 10px;
+    border: 2px solid black;
+    width: 160px;
+    height: 200px;
+    padding: 10px;
+    flex-direction: row;
+
+
+}
+.texto-fixacao{
+    text-align: center;
+    padding: 2px;
+}
+
